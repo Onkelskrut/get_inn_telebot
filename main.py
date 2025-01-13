@@ -43,4 +43,3 @@ def return_bik(message):
     bot.reply_to(message, f'это БИК : {bik}')
 
 bot.polling(none_stop=True)
-
